@@ -1,5 +1,39 @@
 [
   {
+    "desc": "AIだけで作ったRPG。世界がどんどん倍速になっていく。2周目では何かが変わるかも。",
+    "id": "yuusha-no-boken",
+    "img": "img/yuusha.jpg",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/yuusha-no-boken/"
+      }
+    ],
+    "title": "ゆうしゃ ユウの ぼうけん",
+    "video_keywords": [
+      "ゆうしゃ ユウの ぼうけん",
+      "ドパガキ",
+      "倍速"
+    ]
+  },
+  {
+    "desc": "コードを書いてロボットを動かす、C言語の入門ゲーム。全25ステージ。",
+    "id": "c-robo-adventure",
+    "img": "img/crobo.jpg",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/c-robo-adventure/"
+      }
+    ],
+    "title": "Cロボ・アドベンチャー",
+    "video_keywords": [
+      "Cロボ・アドベンチャー",
+      "学習ゲーム",
+      "プログラミングを、ゲームで学べたら"
+    ]
+  },
+  {
     "desc": "星を育てる放置ゲーム。星がでかくなっていくのが気持ちいい。",
     "id": "star-increment",
     "img": "img/star.jpg",
