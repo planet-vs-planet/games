@@ -1,0 +1,14 @@
+[
+  {
+    "id": "goddess",
+    "title": "GODDESS 創世の書（Ver.5）",
+    "img": "img/goddess.jpg",
+    "desc": "女神になって、国同士の戦争を裏から動かすゲーム。5回作り直して、Ver.5がいちばん新しいやつ。",
+    "links": [
+      {"label": "▶ Ver.5で遊ぶ", "url": "https://planet-vs-planet.github.io/goddess/v5/"},
+      {"label": "昔のバージョン", "url": "https://planet-vs-planet.github.io/goddess/"}
+    ],
+    "add_after": "2026-11-15T19:00:00+09:00",
+    "reason": "紹介動画シリーズ（前編・中編・最終回）が全部公開されてから載せる。本人の指示（2026-11-09）"
+  }
+]

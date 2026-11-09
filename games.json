@@ -1,1 +1,70 @@
-[{"desc":"女神になって、国同士の戦争を裏から動かすゲーム。5回作り直して、Ver.5がいちばん新しいやつ。","id":"goddess","img":"img/goddess.jpg","links":[{"label":"▶ Ver.5で遊ぶ","url":"https://planet-vs-planet.github.io/goddess/v5/"},{"label":"昔のバージョン","url":"https://planet-vs-planet.github.io/goddess/"}],"title":"GODDESS 創世の書（Ver.5）","video_keywords":["GODDESS","女神"]},{"desc":"星を育てる放置ゲーム。星がでかくなっていくのが気持ちいい。","id":"star-increment","img":"img/star.jpg","links":[{"label":"▶ 遊ぶ","url":"https://planet-vs-planet.github.io/star-increment/"}],"title":"STAR INCREMENT","video_keywords":["STAR INCREMENT","星を育て"]},{"desc":"写真をブロックにして、武器で壊すゲーム。自分の写真でも遊べます。","id":"dot-bakuha","img":"img/dot.jpg","links":[{"label":"▶ 遊ぶ","url":"https://planet-vs-planet.github.io/dot-bakuha/"}],"title":"ドット爆破","video_keywords":["ドット爆破","写真を3D"]},{"desc":"AI対決で作ったマッチ3パズル。60秒で何点いけるか。","id":"fruit-panic","img":"img/fruit.jpg","links":[{"label":"▶ Muse版で遊ぶ","url":"https://planet-vs-planet.github.io/earth-vs-mars/fruit_muse.html"},{"label":"Claude版で遊ぶ","url":"https://planet-vs-planet.github.io/earth-vs-mars/fruit_claude.html"}],"title":"フルーツパニック","video_keywords":["フルーツパニック","AI対決"]},{"desc":"惑星と惑星がぶつかって戦うゲーム。組み合わせがいくつかある。","id":"planet-battle","img":"img/planet.jpg","links":[{"label":"▶ 遊ぶ","url":"https://planet-vs-planet.github.io/earth-vs-mars/"}],"title":"PLANET BATTLE","video_keywords":["PLANET BATTLE","星バトル"]},{"desc":"動画で実況したゲーム（よそのサイトのゲーム）。ワーカー全滅したり、ドラゴン倒したりしたやつ。","id":"keepsweeper","img":"img/keepsweeper.jpg","links":[{"label":"▶ 遊ぶ（外部サイト）","url":"https://keepsweeper.com/"}],"title":"Keepsweeper","video_keywords":["Keepsweeper"]}]
+[
+  {
+    "desc": "星を育てる放置ゲーム。星がでかくなっていくのが気持ちいい。",
+    "id": "star-increment",
+    "img": "img/star.jpg",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/star-increment/"
+      }
+    ],
+    "title": "STAR INCREMENT",
+    "video_keywords": [
+      "STAR INCREMENT",
+      "星を育て"
+    ]
+  },
+  {
+    "desc": "写真をブロックにして、武器で壊すゲーム。自分の写真でも遊べます。",
+    "id": "dot-bakuha",
+    "img": "img/dot.jpg",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/dot-bakuha/"
+      }
+    ],
+    "title": "ドット爆破",
+    "video_keywords": [
+      "ドット爆破",
+      "写真を3D"
+    ]
+  },
+  {
+    "desc": "AI対決で作ったマッチ3パズル。60秒で何点いけるか。",
+    "id": "fruit-panic",
+    "img": "img/fruit.jpg",
+    "links": [
+      {
+        "label": "▶ Muse版で遊ぶ",
+        "url": "https://planet-vs-planet.github.io/earth-vs-mars/fruit_muse.html"
+      },
+      {
+        "label": "Claude版で遊ぶ",
+        "url": "https://planet-vs-planet.github.io/earth-vs-mars/fruit_claude.html"
+      }
+    ],
+    "title": "フルーツパニック",
+    "video_keywords": [
+      "フルーツパニック",
+      "AI対決"
+    ]
+  },
+  {
+    "desc": "惑星と惑星がぶつかって戦うゲーム。組み合わせがいくつかある。",
+    "id": "planet-battle",
+    "img": "img/planet.jpg",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/earth-vs-mars/"
+      }
+    ],
+    "title": "PLANET BATTLE",
+    "video_keywords": [
+      "PLANET BATTLE",
+      "星バトル"
+    ]
+  }
+]
