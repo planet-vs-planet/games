@@ -3,80 +3,121 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ゲーム置き場 | 知識ゼロからゲーム作り【AI検証】</title>
+<title>知識ゼロからゲーム作り| ゲーム置き場</title>
 <meta name="description" content="知識ゼロの高校生が、AI（Claude）だけで作ったゲームが全部遊べます。コードは1行も書いていません。全部無料。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
 <style>
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; padding: 32px 16px 48px;
-    font-family: "M PLUS Rounded 1c", sans-serif; color: #1c2440;
-    background-color: #fff6e0;
-    background-image: radial-gradient(#f3d98b 22%, transparent 23%), radial-gradient(#f3d98b 22%, transparent 23%);
-    background-size: 34px 34px; background-position: 0 0, 17px 17px;
-  }
-  .wrap { max-width: 680px; margin: 0 auto; }
-  h1 { font-size: 1.55rem; font-weight: 800; text-align: center; margin: 0 0 6px; line-height: 1.45; }
-  .sub { text-align: center; font-weight: 500; margin: 0 0 8px; }
-  .motto { text-align: center; font-weight: 800; color: #b8860b; margin: 0 0 26px; }
-  .card {
-    display: block; text-decoration: none; color: inherit;
-    background: #fff; border: 3px solid #1c2440; border-radius: 18px;
-    padding: 18px 20px; margin: 0 0 16px;
-    box-shadow: 5px 5px 0 #1c2440;
-  }
-  .card .t { font-size: 1.25rem; font-weight: 800; margin-bottom: 6px; }
-  .card .d { font-size: .95rem; line-height: 1.65; margin-bottom: 12px; }
-  .badge {
-    display: inline-block; background: #ffd94d; border: 2px solid #1c2440; border-radius: 999px;
-    font-size: .75rem; font-weight: 800; padding: 2px 10px; margin-bottom: 8px;
-  }
-  .play {
-    display: inline-block; background: #ffd94d; border: 2px solid #1c2440; border-radius: 999px;
-    font-weight: 800; padding: 7px 18px; margin-right: 8px;
-  }
-  .play.sub2 { background: #fff; }
-  footer { text-align: center; margin-top: 30px; font-weight: 500; line-height: 2; }
-  footer a { color: #1c2440; font-weight: 800; }
+* { box-sizing: border-box;}
+body {
+margin: 0; padding: 36px 16px 48px;
+font-family: "M PLUS Rounded 1c", sans-serif; color: #1c2440;
+background-color: #fff6e0;
+background-image: radial-gradient(#f3d98b 22%, transparent 23%), radial-gradient(#f3d98b 22%, transparent 23%);
+background-size: 34px 34px; background-position: 0 0, 17px 17px;
+}
+.wrap { max-width: 680px; margin: 0 auto;}
+.profile { text-align: center; margin-bottom: 30px;}
+.profile img.icon {
+width: 120px; height: 120px; border-radius: 50%;
+border: 4px solid #1c2440; background: #fff;
+box-shadow: 4px 4px 0 #1c2440;
+}
+h1 { font-family: "Mochiy Pop One", "M PLUS Rounded 1c", sans-serif; font-size: 1.5rem; margin: 16px 0 4px; line-height: 1.5;}
+.handle { font-weight: 800; color: #b8860b; margin: 0 0 12px;}
+.intro { font-weight: 500; line-height: 1.8; margin: 0 0 16px;}
+.chips { margin: 0 0 20px;}
+.chip {
+display: inline-block; background: #fff; border: 2px solid #1c2440; border-radius: 999px;
+font-size:.82rem; font-weight: 800; padding: 4px 12px; margin: 0 3px 8px;
+box-shadow: 2px 2px 0 #1c2440;
+}
+.sns { margin: 0 0 6px;}
+.sns a {
+display: inline-block; text-decoration: none; font-weight: 800;
+border: 3px solid #1c2440; border-radius: 999px; padding: 10px 22px; margin: 0 4px 10px;
+box-shadow: 3px 3px 0 #1c2440; color: #1c2440;
+}
+.sns a.yt { background: #ffd94d;}
+.sns a.ig { background: #fff;}
+h2 {
+font-family: "Mochiy Pop One", "M PLUS Rounded 1c", sans-serif;
+font-size: 1.3rem; text-align: center; margin: 34px 0 6px;
+}
+.secsub { text-align: center; font-weight: 500; margin: 0 0 22px;}
+.card {
+display: block; text-decoration: none; color: inherit;
+background: #fff; border: 3px solid #1c2440; border-radius: 18px;
+padding: 18px 20px; margin: 0 0 16px;
+box-shadow: 5px 5px 0 #1c2440;
+}
+.card.t { font-size: 1.25rem; font-weight: 800; margin-bottom: 6px;}
+.card.d { font-size:.95rem; line-height: 1.65; margin-bottom: 12px;}
+.badge {
+display: inline-block; background: #ffd94d; border: 2px solid #1c2440; border-radius: 999px;
+font-size:.75rem; font-weight: 800; padding: 2px 10px; margin-bottom: 8px;
+}
+.play {
+display: inline-block; background: #ffd94d; border: 2px solid #1c2440; border-radius: 999px;
+font-weight: 800; padding: 7px 18px; margin-right: 8px; text-decoration: none; color: inherit;
+}
+.play.sub2 { background: #fff;}
+footer { text-align: center; margin-top: 34px; font-weight: 500; line-height: 2;}
+.motto { font-weight: 800; color: #b8860b;}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>知識ゼロからゲーム作り【AI検証】<br>ゲーム置き場</h1>
-  <p class="sub">知識ゼロの高校生が、AI（Claude）だけで作ったゲームです。<br>コードは1行も書いていません。全部、無料で遊べます。</p>
-  <p class="motto">99%のAIと1%の努力</p>
 
-  <div class="card">
-    <span class="badge">最新・完結編</span>
-    <div class="t">GODDESS 創世の書（Ver.5）</div>
-    <div class="d">世界を創った女神になって、人族3国×魔族3国の歴史を裏からあやつるシミュレーション。決まったエンディングはなく、何百年でも歴史が続きます。Ver.1〜Ver.4も全バージョン遊べます。</div>
-    <a class="play" href="https://planet-vs-planet.github.io/goddess/v5/">▶ Ver.5で遊ぶ</a>
-    <a class="play sub2" href="https://planet-vs-planet.github.io/goddess/">全バージョン一覧</a>
-  </div>
+<div class="profile">
+<img class="icon" src="icon.png" alt="チャンネルアイコン">
+<h1>知識ゼロからゲーム作り</h1>
+<p class="handle">@planetvsplanet</p>
+<p class="intro">知識ゼロの高校生が、AIだけでゲームを作れるか検証するチャンネルです。<br>作ったゲームは、全部このページから無料で遊べます。</p>
+<div class="chips">
+<span class="chip">知識ゼロの高校生</span>
+<span class="chip">コードは1行も書かない</span>
+<span class="chip">学校PC＋Claude Proだけ</span>
+</div>
+<div class="sns">
+<a class="yt" href="https://youtube.com/@planetvsplanet">▶ YouTube</a>
+<a class="ig" href="https://www.instagram.com/planetvsplanet">Instagram</a>
+</div>
+</div>
 
-  <div class="card">
-    <div class="t">STAR INCREMENT</div>
-    <div class="d">星を育ててブラックホールに挑む放置ゲーム。天体18種・必殺技15種、50体ごとにボス、転生システムもあります。</div>
-    <a class="play" href="https://planet-vs-planet.github.io/star-increment/">▶ 遊ぶ</a>
-  </div>
+<h2>ゲーム置き場</h2>
+<p class="secsub">スマホでもパソコンでも、ブラウザですぐ遊べます。</p>
 
-  <div class="card">
-    <div class="t">ドット爆破</div>
-    <div class="d">写真をブロックの立体にして、武器7種で壊しまくるゲーム。自分の写真でも遊べます。</div>
-    <a class="play" href="https://planet-vs-planet.github.io/dot-bakuha/">▶ 遊ぶ</a>
-  </div>
+<div class="card">
+<span class="badge">最新・完結編</span>
+<div class="t">GODDESS 創世の書（Ver.5）</div>
+<div class="d">世界を創った女神になって、人族3国×魔族3国の歴史を裏からあやつるシミュレーション。決まったエンディングはなく、何百年でも歴史が続きます。Ver.1〜Ver.4も全バージョン遊べます。</div>
+<a class="play" href="https://planet-vs-planet.github.io/goddess/v5/">▶ Ver.5で遊ぶ</a>
+<a class="play sub2" href="https://planet-vs-planet.github.io/goddess/">全バージョン一覧</a>
+</div>
 
-  <div class="card">
-    <div class="t">PLANET BATTLE（星バトル）</div>
-    <div class="d">惑星同士がぶつかり合う対戦ゲーム。地球vs火星など、組み合わせいろいろ。</div>
-    <a class="play" href="https://planet-vs-planet.github.io/earth-vs-mars/">▶ 遊ぶ</a>
-  </div>
+<div class="card">
+<div class="t">STAR INCREMENT</div>
+<div class="d">星を育ててブラックホールに挑む放置ゲーム。天体18種・必殺技15種、50体ごとにボス、転生システムもあります。</div>
+<a class="play" href="https://planet-vs-planet.github.io/star-increment/">▶ 遊ぶ</a>
+</div>
 
-  <footer>
-    <a href="https://youtube.com/@planetvsplanet">YouTube「知識ゼロからゲーム作り【AI検証】」</a><br>
-    <a href="https://www.instagram.com/planetvsplanet">Instagram @planetvsplanet</a>
-  </footer>
+<div class="card">
+<div class="t">ドット爆破</div>
+<div class="d">写真をブロックの立体にして、武器7種で壊しまくるゲーム。自分の写真でも遊べます。</div>
+<a class="play" href="https://planet-vs-planet.github.io/dot-bakuha/">▶ 遊ぶ</a>
+</div>
+
+<div class="card">
+<div class="t">PLANET BATTLE（星バトル）</div>
+<div class="d">惑星同士がぶつかり合う対戦ゲーム。地球vs火星など、組み合わせいろいろ。</div>
+<a class="play" href="https://planet-vs-planet.github.io/earth-vs-mars/">▶ 遊ぶ</a>
+</div>
+
+<footer>
+<span class="motto">99%のAIと1%の努力</span><br>
+知識ゼロからゲーム作り @planetvsplanet
+</footer>
 </div>
 </body>
 </html>
