@@ -3,67 +3,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>知識ゼロからゲーム作り| ゲーム置き場</title>
-<meta name="description" content="知識ゼロの高校生が、AI（Claude）だけで作ったゲームが全部遊べます。コードは1行も書いていません。全部無料。">
+<title>知識ゼロからゲーム作りのゲーム置き場</title>
+<meta name="description" content="知識ゼロの高校生がAIに作らせたゲームを置いてます。全部タダで、ブラウザですぐ遊べます。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&display=swap" rel="stylesheet">
 <style>
 * { box-sizing: border-box;}
 body {
-margin: 0; padding: 36px 16px 48px;
+margin: 0; padding: 32px 16px 48px;
 font-family: "M PLUS Rounded 1c", sans-serif; color: #1c2440;
 background-color: #fff6e0;
 background-image: radial-gradient(#f3d98b 22%, transparent 23%), radial-gradient(#f3d98b 22%, transparent 23%);
 background-size: 34px 34px; background-position: 0 0, 17px 17px;
 }
 .wrap { max-width: 680px; margin: 0 auto;}
-.profile { text-align: center; margin-bottom: 30px;}
+.profile { text-align: center; margin-bottom: 8px;}
 .profile img.icon {
-width: 120px; height: 120px; border-radius: 50%;
+width: 110px; height: 110px; border-radius: 50%;
 border: 4px solid #1c2440; background: #fff;
 box-shadow: 4px 4px 0 #1c2440;
 }
-h1 { font-family: "Mochiy Pop One", "M PLUS Rounded 1c", sans-serif; font-size: 1.5rem; margin: 16px 0 4px; line-height: 1.5;}
-.handle { font-weight: 800; color: #b8860b; margin: 0 0 12px;}
-.intro { font-weight: 500; line-height: 1.8; margin: 0 0 16px;}
-.chips { margin: 0 0 20px;}
-.chip {
-display: inline-block; background: #fff; border: 2px solid #1c2440; border-radius: 999px;
-font-size:.82rem; font-weight: 800; padding: 4px 12px; margin: 0 3px 8px;
-box-shadow: 2px 2px 0 #1c2440;
+h1 { font-size: 1.45rem; font-weight: 800; margin: 14px 0 4px; line-height: 1.5;}
+.handle { font-weight: 800; color: #b8860b; margin: 0 0 10px;}
+.intro { font-weight: 500; line-height: 1.8; margin: 0 0 18px;}
+.ytbtn {
+display: inline-block; text-decoration: none; font-weight: 800; color: #1c2440;
+background: #ffd94d; border: 3px solid #1c2440; border-radius: 999px;
+padding: 10px 24px; box-shadow: 3px 3px 0 #1c2440;
 }
-.sns { margin: 0 0 6px;}
-.sns a {
-display: inline-block; text-decoration: none; font-weight: 800;
-border: 3px solid #1c2440; border-radius: 999px; padding: 10px 22px; margin: 0 4px 10px;
-box-shadow: 3px 3px 0 #1c2440; color: #1c2440;
-}
-.sns a.yt { background: #ffd94d;}
-.sns a.ig { background: #fff;}
-h2 {
-font-family: "Mochiy Pop One", "M PLUS Rounded 1c", sans-serif;
-font-size: 1.3rem; text-align: center; margin: 34px 0 6px;
-}
-.secsub { text-align: center; font-weight: 500; margin: 0 0 22px;}
+h2 { font-size: 1.3rem; font-weight: 800; margin: 40px 0 6px;}
+.secsub { font-weight: 500; margin: 0 0 18px; line-height: 1.7;}
 .card {
-display: block; text-decoration: none; color: inherit;
 background: #fff; border: 3px solid #1c2440; border-radius: 18px;
-padding: 18px 20px; margin: 0 0 16px;
-box-shadow: 5px 5px 0 #1c2440;
+overflow: hidden; margin: 0 0 18px; box-shadow: 5px 5px 0 #1c2440;
 }
-.card.t { font-size: 1.25rem; font-weight: 800; margin-bottom: 6px;}
+.card img.shot { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-bottom: 3px solid #1c2440;}
+.card.body { padding: 14px 18px 18px;}
+.card.t { font-size: 1.2rem; font-weight: 800; margin-bottom: 4px;}
 .card.d { font-size:.95rem; line-height: 1.65; margin-bottom: 12px;}
-.badge {
-display: inline-block; background: #ffd94d; border: 2px solid #1c2440; border-radius: 999px;
-font-size:.75rem; font-weight: 800; padding: 2px 10px; margin-bottom: 8px;
-}
 .play {
 display: inline-block; background: #ffd94d; border: 2px solid #1c2440; border-radius: 999px;
-font-weight: 800; padding: 7px 18px; margin-right: 8px; text-decoration: none; color: inherit;
+font-weight: 800; padding: 7px 18px; margin: 0 8px 6px 0; text-decoration: none; color: inherit;
 }
 .play.sub2 { background: #fff;}
-footer { text-align: center; margin-top: 34px; font-weight: 500; line-height: 2;}
-.motto { font-weight: 800; color: #b8860b;}
+.movie {
+position: relative; width: 100%; aspect-ratio: 16 / 9;
+border: 3px solid #1c2440; border-radius: 18px; overflow: hidden;
+box-shadow: 5px 5px 0 #1c2440; background: #000;
+}
+.movie iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0;}
+footer { text-align: center; margin-top: 40px; font-weight: 500; line-height: 2;}
 </style>
 </head>
 <body>
@@ -73,49 +62,76 @@ footer { text-align: center; margin-top: 34px; font-weight: 500; line-height: 2;
 <img class="icon" src="icon.png" alt="チャンネルアイコン">
 <h1>知識ゼロからゲーム作り</h1>
 <p class="handle">@planetvsplanet</p>
-<p class="intro">知識ゼロの高校生が、AIだけでゲームを作れるか検証するチャンネルです。<br>作ったゲームは、全部このページから無料で遊べます。</p>
-<div class="chips">
-<span class="chip">知識ゼロの高校生</span>
-<span class="chip">コードは1行も書かない</span>
-<span class="chip">学校PC＋Claude Proだけ</span>
-</div>
-<div class="sns">
-<a class="yt" href="https://youtube.com/@planetvsplanet">▶ YouTube</a>
-<a class="ig" href="https://www.instagram.com/planetvsplanet">Instagram</a>
-</div>
+<p class="intro">知識ゼロの高校生が、AIに作らせたゲームを置いてます。<br>コードは自分で1行も書いてません。全部タダで、ブラウザですぐ遊べます。</p>
+<a class="ytbtn" href="https://youtube.com/@planetvsplanet">▶ YouTubeチャンネル</a>
 </div>
 
-<h2>ゲーム置き場</h2>
-<p class="secsub">スマホでもパソコンでも、ブラウザですぐ遊べます。</p>
+<h2>ゲーム</h2>
+<p class="secsub">動画で出したゲームは全部ここに置いてます。</p>
 
 <div class="card">
-<span class="badge">最新・完結編</span>
+<img class="shot" src="img/goddess.jpg" alt="GODDESS 創世の書の画面">
+<div class="body">
 <div class="t">GODDESS 創世の書（Ver.5）</div>
-<div class="d">世界を創った女神になって、人族3国×魔族3国の歴史を裏からあやつるシミュレーション。決まったエンディングはなく、何百年でも歴史が続きます。Ver.1〜Ver.4も全バージョン遊べます。</div>
+<div class="d">女神になって、国同士の戦争を裏から動かすゲーム。5回作り直して、Ver.5がいちばん新しいやつ。</div>
 <a class="play" href="https://planet-vs-planet.github.io/goddess/v5/">▶ Ver.5で遊ぶ</a>
-<a class="play sub2" href="https://planet-vs-planet.github.io/goddess/">全バージョン一覧</a>
+<a class="play sub2" href="https://planet-vs-planet.github.io/goddess/">昔のバージョン</a>
+</div>
 </div>
 
 <div class="card">
+<img class="shot" src="img/star.jpg" alt="STAR INCREMENTの画面">
+<div class="body">
 <div class="t">STAR INCREMENT</div>
-<div class="d">星を育ててブラックホールに挑む放置ゲーム。天体18種・必殺技15種、50体ごとにボス、転生システムもあります。</div>
+<div class="d">星を育てる放置ゲーム。星がでかくなっていくのが気持ちいい。</div>
 <a class="play" href="https://planet-vs-planet.github.io/star-increment/">▶ 遊ぶ</a>
 </div>
-
-<div class="card">
-<div class="t">ドット爆破</div>
-<div class="d">写真をブロックの立体にして、武器7種で壊しまくるゲーム。自分の写真でも遊べます。</div>
-<a class="play" href="https://planet-vs-planet.github.io/dot-bakuha/">▶ 遊ぶ</a>
 </div>
 
 <div class="card">
-<div class="t">PLANET BATTLE（星バトル）</div>
-<div class="d">惑星同士がぶつかり合う対戦ゲーム。地球vs火星など、組み合わせいろいろ。</div>
+<img class="shot" src="img/dot.jpg" alt="ドット爆破の画面">
+<div class="body">
+<div class="t">ドット爆破</div>
+<div class="d">写真をブロックにして、武器で壊すゲーム。自分の写真でも遊べます。</div>
+<a class="play" href="https://planet-vs-planet.github.io/dot-bakuha/">▶ 遊ぶ</a>
+</div>
+</div>
+
+<div class="card">
+<img class="shot" src="img/fruit.jpg" alt="フルーツパニックの画面">
+<div class="body">
+<div class="t">フルーツパニック</div>
+<div class="d">AI対決で作ったマッチ3パズル。60秒で何点いけるか。</div>
+<a class="play" href="https://planet-vs-planet.github.io/earth-vs-mars/fruit_muse.html">▶ Muse版で遊ぶ</a>
+<a class="play sub2" href="https://planet-vs-planet.github.io/earth-vs-mars/fruit_claude.html">Claude版で遊ぶ</a>
+</div>
+</div>
+
+<div class="card">
+<img class="shot" src="img/planet.jpg" alt="PLANET BATTLEの画面">
+<div class="body">
+<div class="t">PLANET BATTLE</div>
+<div class="d">惑星と惑星がぶつかって戦うゲーム。組み合わせがいくつかある。</div>
 <a class="play" href="https://planet-vs-planet.github.io/earth-vs-mars/">▶ 遊ぶ</a>
+</div>
+</div>
+
+<div class="card">
+<img class="shot" src="img/keepsweeper.jpg" alt="Keepsweeperのプレイ画面">
+<div class="body">
+<div class="t">Keepsweeper</div>
+<div class="d">動画で実況したゲーム（よそのサイトのゲーム）。ワーカー全滅したり、ドラゴン倒したりしたやつ。</div>
+<a class="play" href="https://keepsweeper.com/">▶ 遊ぶ（外部サイト）</a>
+</div>
+</div>
+
+<h2>動画</h2>
+<p class="secsub">新しい動画はここにも出ます。</p>
+<div class="movie">
+<iframe src="https://www.youtube.com/embed/videoseries?list=UUHeiGDb8idP9AJqH5nqRA_Q" title="最近の動画" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <footer>
-<span class="motto">99%のAIと1%の努力</span><br>
 知識ゼロからゲーム作り @planetvsplanet
 </footer>
 </div>
