@@ -1,14 +1,36 @@
 [
   {
     "id": "goddess",
-    "title": "GODDESS 創世の書（Ver.5）",
     "img": "img/goddess.jpg",
-    "desc": "女神になって、国同士の戦争を裏から動かすゲーム。5回作り直して、Ver.5がいちばん新しいやつ。",
-    "links": [
-      {"label": "▶ Ver.5で遊ぶ", "url": "https://planet-vs-planet.github.io/goddess/v5/"},
-      {"label": "昔のバージョン", "url": "https://planet-vs-planet.github.io/goddess/"}
-    ],
-    "add_after": "2026-11-15T19:00:00+09:00",
-    "reason": "紹介動画シリーズ（前編・中編・最終回）が全部公開されてから載せる。本人の指示（2026-11-09）"
+    "note": "シリーズものは全編を待たず、公開された回の分から順に載せる（2026-11-09 本人の修正指示）。各ステージの after を過ぎたら、その内容でカードを出す／差し替える。",
+    "stages": [
+      {
+        "after": "2026-11-11T19:00:00+09:00",
+        "title": "GODDESS",
+        "desc": "女神になって、国同士の戦争を裏から動かすゲーム。動画の前編で出したVer.1〜3が遊べます。",
+        "links": [
+          {"label": "▶ Ver.3で遊ぶ", "url": "https://planet-vs-planet.github.io/goddess/v3_3/"},
+          {"label": "まとめページ", "url": "https://planet-vs-planet.github.io/goddess/"}
+        ]
+      },
+      {
+        "after": "2026-11-13T19:00:00+09:00",
+        "title": "GODDESS 運命の書（Ver.4）",
+        "desc": "女神になって、国同士の戦争を裏から動かすゲーム。動画の中編で出したVer.4『運命の書』まで遊べます。",
+        "links": [
+          {"label": "▶ Ver.4で遊ぶ", "url": "https://planet-vs-planet.github.io/goddess/v4/"},
+          {"label": "まとめページ", "url": "https://planet-vs-planet.github.io/goddess/"}
+        ]
+      },
+      {
+        "after": "2026-11-15T19:00:00+09:00",
+        "title": "GODDESS 創世の書（Ver.5）",
+        "desc": "女神になって、国同士の戦争を裏から動かすゲーム。5回作り直して、Ver.5がいちばん新しいやつ。",
+        "links": [
+          {"label": "▶ Ver.5で遊ぶ", "url": "https://planet-vs-planet.github.io/goddess/v5/"},
+          {"label": "昔のバージョン", "url": "https://planet-vs-planet.github.io/goddess/"}
+        ]
+      }
+    ]
   }
 ]
