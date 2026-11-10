@@ -84,21 +84,5 @@
       "フルーツパニック",
       "AI対決"
     ]
-  },
-  {
-    "desc": "惑星と惑星がぶつかって戦うゲーム。組み合わせがいくつかある。",
-    "id": "planet-battle",
-    "img": "img/planet.jpg",
-    "links": [
-      {
-        "label": "▶ 遊ぶ",
-        "url": "https://planet-vs-planet.github.io/earth-vs-mars/"
-      }
-    ],
-    "title": "PLANET BATTLE",
-    "video_keywords": [
-      "PLANET BATTLE",
-      "星バトル"
-    ]
   }
 ]

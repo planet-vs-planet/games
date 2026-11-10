@@ -3,12 +3,29 @@
     "id": "programming-learning-game",
     "title": "プログラミング学習ゲーム",
     "reason": "載せなくていいと本人が決定（2026-11-09）。公開URLも無い。",
-    "video_ids": ["5Mf_CmbTiNk", "f5hBUTmlRYg"]
+    "video_ids": [
+      "5Mf_CmbTiNk",
+      "f5hBUTmlRYg"
+    ]
   },
   {
     "id": "keepsweeper",
     "title": "Keepsweeper",
     "reason": "他者のゲームなので載せない（2026-11-09 本人指示）。",
-    "video_ids": ["aPQVOrkBRV4", "A2Z4aeJAhog", "vFvFhRIf6yg", "k-uE6NpTR_8"]
+    "video_ids": [
+      "aPQVOrkBRV4",
+      "A2Z4aeJAhog",
+      "vFvFhRIf6yg",
+      "k-uE6NpTR_8"
+    ]
+  },
+  {
+    "id": "planet-battle",
+    "title": "星バトル（PLANET BATTLE）",
+    "reason": "サイトから消すよう本人が指示（2026-11-10）。動画は公開済みだが載せない。",
+    "video_ids": [
+      "R-Z9ig9X38g",
+      "K6SUFXYvzzE"
+    ]
   }
 ]
