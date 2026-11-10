@@ -1,5 +1,21 @@
 [
   {
+    "id": "planet-battle",
+    "title": "星バトル",
+    "img": "img/planet.jpg",
+    "desc": "Museが作った方。地球と火星が戦う、シンプルなバトルゲーム。",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/earth-vs-mars/muse.html"
+      }
+    ],
+    "video_keywords": [
+      "星バトル",
+      "PLANET BATTLE"
+    ]
+  },
+  {
     "desc": "AIだけで作ったRPG。世界がどんどん倍速になっていく。2周目では何かが変わるかも。",
     "id": "yuusha-no-boken",
     "img": "img/yuusha.jpg",
