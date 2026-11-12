@@ -9,8 +9,14 @@
         "title": "GODDESS",
         "desc": "女神になって、国同士の戦争を裏から動かすゲーム。動画の前編で出したVer.1〜3が遊べます。",
         "links": [
-          {"label": "▶ Ver.3で遊ぶ", "url": "https://planet-vs-planet.github.io/goddess/v3_3/"},
-          {"label": "まとめページ", "url": "https://planet-vs-planet.github.io/goddess/"}
+          {
+            "label": "▶ Ver.3で遊ぶ",
+            "url": "https://planet-vs-planet.github.io/goddess/v3_3/"
+          },
+          {
+            "label": "まとめページ",
+            "url": "https://planet-vs-planet.github.io/goddess/"
+          }
         ]
       },
       {
@@ -18,8 +24,14 @@
         "title": "GODDESS 運命の書（Ver.4）",
         "desc": "女神になって、国同士の戦争を裏から動かすゲーム。動画の中編で出したVer.4『運命の書』まで遊べます。",
         "links": [
-          {"label": "▶ Ver.4で遊ぶ", "url": "https://planet-vs-planet.github.io/goddess/v4/"},
-          {"label": "まとめページ", "url": "https://planet-vs-planet.github.io/goddess/"}
+          {
+            "label": "▶ Ver.4で遊ぶ",
+            "url": "https://planet-vs-planet.github.io/goddess/v4/"
+          },
+          {
+            "label": "まとめページ",
+            "url": "https://planet-vs-planet.github.io/goddess/"
+          }
         ]
       },
       {
@@ -27,8 +39,32 @@
         "title": "GODDESS 創世の書（Ver.5）",
         "desc": "女神になって、国同士の戦争を裏から動かすゲーム。5回作り直して、Ver.5がいちばん新しいやつ。",
         "links": [
-          {"label": "▶ Ver.5で遊ぶ", "url": "https://planet-vs-planet.github.io/goddess/v5/"},
-          {"label": "昔のバージョン", "url": "https://planet-vs-planet.github.io/goddess/"}
+          {
+            "label": "▶ Ver.5で遊ぶ",
+            "url": "https://planet-vs-planet.github.io/goddess/v5/"
+          },
+          {
+            "label": "昔のバージョン",
+            "url": "https://planet-vs-planet.github.io/goddess/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reaction-arena",
+    "img": "img/reaction.jpg",
+    "note": "動画は2026-11-16 19:00公開予定。同時公開の本編＋ショート。公開後にカードを出す。",
+    "stages": [
+      {
+        "after": "2026-11-16T19:00:00+09:00",
+        "title": "REACTION ARENA",
+        "desc": "化学反応で戦うカードゲーム。元素を組み合わせて化合物を作って攻撃する。カード72種類、反応48種類。",
+        "links": [
+          {
+            "label": "▶ 遊ぶ",
+            "url": "https://planet-vs-planet.github.io/reaction-arena/"
+          }
         ]
       }
     ]
