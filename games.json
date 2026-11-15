@@ -1,5 +1,26 @@
 [
   {
+    "id": "goddess",
+    "title": "GODDESS 創世の書（Ver.5）",
+    "img": "img/goddess.jpg",
+    "desc": "女神になって、国同士の戦争を裏から動かすゲーム。5回作り直して、Ver.5がいちばん新しいやつ。",
+    "links": [
+      {
+        "label": "▶ Ver.5で遊ぶ",
+        "url": "https://planet-vs-planet.github.io/goddess/v5/"
+      },
+      {
+        "label": "昔のバージョン",
+        "url": "https://planet-vs-planet.github.io/goddess/"
+      }
+    ],
+    "video_keywords": [
+      "GODDESS",
+      "女神ゲーム",
+      "創世の書"
+    ]
+  },
+  {
     "id": "planet-battle",
     "title": "星バトル",
     "img": "img/planet.jpg",
