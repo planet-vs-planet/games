@@ -1,5 +1,21 @@
 [
   {
+    "id": "fukaki-meikyu",
+    "title": "ふかき迷宮の勇者",
+    "img": "img/fukaki.jpg",
+    "desc": "AIだけで作ったローグライク。動くと敵も動くターン制で、死んだら最初から。2階ごとに強化を選んで、どこまで深く潜れるか。",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/fukaki-meikyu/"
+      }
+    ],
+    "video_keywords": [
+      "ふかき迷宮",
+      "ローグライク"
+    ]
+  },
+  {
     "id": "goddess-v5",
     "title": "GODDESS 創世の書（Ver.5）",
     "img": "img/goddess.jpg",
