@@ -1,23 +1,83 @@
 [
   {
-    "id": "goddess",
+    "id": "goddess-v5",
     "title": "GODDESS 創世の書（Ver.5）",
     "img": "img/goddess.jpg",
-    "desc": "女神になって、国同士の戦争を裏から動かすゲーム。5回作り直して、Ver.5がいちばん新しいやつ。",
+    "desc": "女神になって、人族3国と魔族3国の歴史を裏からあやつるゲーム。いちばん新しい完結編。エンディングはなくて、歴史がずっと続く。",
     "links": [
       {
-        "label": "▶ Ver.5で遊ぶ",
+        "label": "▶ 遊ぶ",
         "url": "https://planet-vs-planet.github.io/goddess/v5/"
-      },
-      {
-        "label": "昔のバージョン",
-        "url": "https://planet-vs-planet.github.io/goddess/"
       }
     ],
     "video_keywords": [
       "GODDESS",
       "女神ゲーム",
       "創世の書"
+    ]
+  },
+  {
+    "id": "goddess-v4",
+    "title": "GODDESS 運命の書（Ver.4）",
+    "img": "img/goddess_v4.jpg",
+    "desc": "女神アステリアになって、場面ごとに「運命の書」を書き換えて、世界の結末を決めていくゲーム。",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/goddess/v4/"
+      }
+    ],
+    "video_keywords": [
+      "GODDESS",
+      "運命の書"
+    ]
+  },
+  {
+    "id": "goddess-v3",
+    "title": "GODDESS 三戦線（Ver.3）",
+    "img": "img/goddess_v3.jpg",
+    "desc": "北部・中央・南部の三つの戦線をリアルタイムで見守って、介入していく版。",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/goddess/v3_3/"
+      }
+    ],
+    "video_keywords": [
+      "GODDESS",
+      "三戦線"
+    ]
+  },
+  {
+    "id": "goddess-v2",
+    "title": "GODDESS 戦場版（Ver.2）",
+    "img": "img/goddess_v2.jpg",
+    "desc": "戦場を横から見ながら介入していく版。フルボイス付き。",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/goddess/v2/"
+      }
+    ],
+    "video_keywords": [
+      "GODDESS",
+      "戦場版"
+    ]
+  },
+  {
+    "id": "goddess-v1",
+    "title": "GODDESS（Ver.1）",
+    "img": "img/goddess_v1.jpg",
+    "desc": "最初の版。大陸地図の上で、国家や人々の歴史が自動で進んでいくシミュレーション。",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/goddess/v1/"
+      }
+    ],
+    "video_keywords": [
+      "GODDESS",
+      "女神ゲーム"
     ]
   },
   {
