@@ -1,5 +1,21 @@
 [
   {
+    "id": "ikkaku-soudatsusen",
+    "title": "一画争奪戦",
+    "img": "img/ikkaku.jpg",
+    "desc": "漢字の活字同士が体当たりで戦う3D対戦ゲーム。当たると相手の画が欠けて、拾うと文字が変わる。玉の点が取れたら王になる。相手を台から落とすか、60秒後の重さ判定で勝敗。",
+    "links": [
+      {
+        "label": "▶ 遊ぶ",
+        "url": "https://planet-vs-planet.github.io/ikkaku-soudatsusen/"
+      }
+    ],
+    "video_keywords": [
+      "一画争奪戦",
+      "漢字バトル"
+    ]
+  },
+  {
     "id": "reaction-arena",
     "title": "REACTION ARENA",
     "img": "img/reaction.jpg",
